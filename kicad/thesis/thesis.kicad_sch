@@ -3755,7 +3755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Personalized-footprint:Iron-Output"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 193.04 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4024,7 +4024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 85.09 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4841,7 +4841,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Personalized-footprint:Iron-Input"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 181.61 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5322,7 +5322,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Personalized-footprint:Iron-Output"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 193.04 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5405,7 +5405,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_1x06_P1.27mm_Vertical"
 			(at 132.08 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5581,7 +5581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Personalized-footprint:Iron-Input"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 181.61 69.85 0)
 			(hide yes)
 			(show_name no)
