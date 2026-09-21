@@ -720,7 +720,7 @@
         "uuid": "4ebb0c45-f912-48a8-89a3-8cdd50b81c57"
       }
     ],
-    "used_designators": "U1-2,A1,#FLG1-3,R1-4,TH1,L1-4,D1-2,#PWR1-8,SW1,Q1",
+    "used_designators": "U1-2,A1,#FLG1-3,R1-4,TH1,L1-4,D1-2,#PWR1-8,SW1,Q1,H1-5",
     "variants": []
   },
   "sheets": [
