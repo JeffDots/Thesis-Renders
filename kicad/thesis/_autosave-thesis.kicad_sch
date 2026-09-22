@@ -3691,10 +3691,28 @@
 		(uuid "ae8ba3c4-c96e-438b-8b2d-4f9e003d0e3f")
 	)
 	(junction
+		(at 31.75 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be6a80ca-4e0b-4736-baed-02ea28bae9e4")
+	)
+	(junction
 		(at 201.93 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c33e2d92-7f76-49f7-a2bb-930a9f5a365c")
+	)
+	(junction
+		(at 25.4 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc05e310-2e5a-4bad-8f71-f626528979e4")
+	)
+	(junction
+		(at 31.75 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdf877ff-a277-47c8-9d81-1ed51f113226")
 	)
 	(junction
 		(at 173.99 72.39)
@@ -3841,6 +3859,16 @@
 			(type default)
 		)
 		(uuid "18c2169e-2792-4d56-969b-f31b88a2ea92")
+	)
+	(wire
+		(pts
+			(xy 31.75 165.1) (xy 25.4 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a947301-feb5-49de-96e1-bc91e7231c2e")
 	)
 	(wire
 		(pts
@@ -4024,6 +4052,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 175.26) (xy 31.75 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ef5b291-2339-4ac7-9c50-316f2cc8bc60")
+	)
+	(wire
+		(pts
 			(xy 57.15 125.73) (xy 57.15 128.27)
 		)
 		(stroke
@@ -4084,6 +4122,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 175.26) (xy 31.75 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dda10c7-0690-42e6-9356-76e030b3008d")
+	)
+	(wire
+		(pts
 			(xy 154.94 87.63) (xy 165.1 87.63)
 		)
 		(stroke
@@ -4131,6 +4179,16 @@
 			(type default)
 		)
 		(uuid "82bbd300-b51f-42ad-bf1a-2319dc03eb86")
+	)
+	(wire
+		(pts
+			(xy 25.4 156.21) (xy 25.4 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8305308e-f66c-4d38-b42a-3c5771de0726")
 	)
 	(wire
 		(pts
@@ -4201,6 +4259,16 @@
 			(type default)
 		)
 		(uuid "92645741-91a7-4ab5-8e71-747dc3edc474")
+	)
+	(wire
+		(pts
+			(xy 25.4 165.1) (xy 25.4 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92cbf426-b080-4562-b1ce-d2afc0c50277")
 	)
 	(wire
 		(pts
@@ -4474,6 +4542,26 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 156.21) (xy 25.4 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0146819-a7c2-4c6c-bd14-eb90421c165e")
+	)
+	(wire
+		(pts
+			(xy 38.1 186.69) (xy 31.75 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4928399-9710-45e2-84ef-fdfcc1f6ab74")
+	)
+	(wire
+		(pts
 			(xy 184.15 69.85) (xy 190.5 69.85)
 		)
 		(stroke
@@ -4481,6 +4569,16 @@
 			(type default)
 		)
 		(uuid "e767a311-6bdd-4e43-bb0f-28256adf8e3a")
+	)
+	(wire
+		(pts
+			(xy 31.75 186.69) (xy 31.75 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea60d9b6-f7d9-4fb5-8717-f3f1f28ad3d0")
 	)
 	(wire
 		(pts
@@ -4541,6 +4639,16 @@
 			(type default)
 		)
 		(uuid "f5f22f2c-9c1d-424e-b489-4af5daa111ef")
+	)
+	(wire
+		(pts
+			(xy 38.1 165.1) (xy 31.75 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6044fda-6e86-429b-a0f4-2c1506a07edf")
 	)
 	(wire
 		(pts
@@ -6424,6 +6532,84 @@
 			(project "thesis"
 				(path "/4ebb0c45-f912-48a8-89a3-8cdd50b81c57"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.4 166.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfffb389-b64b-490c-ab35-a442181ed562")
+		(property "Reference" "#PWR07"
+			(at 25.4 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba9bcbb3-f11f-4fff-a34e-ae664d8c7d6a")
+		)
+		(instances
+			(project "thesis"
+				(path "/4ebb0c45-f912-48a8-89a3-8cdd50b81c57"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
