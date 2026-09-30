@@ -1061,7 +1061,7 @@
 		)
 		(property "Value" "500"
 			(at 3.81 0 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "174db131-d69f-4b1c-b5f8-d917af5935eb")
 			(effects
 				(font
@@ -2420,7 +2420,7 @@
 		)
 		(property "Value" "1N5822"
 			(at 7.62 3.72 180)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "87aae9ff-4e31-4473-ade4-08dfe334e506")
 			(effects
 				(font
@@ -4441,7 +4441,7 @@
 		)
 		(property "Value" "10K"
 			(at 4.01 -0.1 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "5e737efd-1a8a-4f0c-9751-e0d4af2ed30f")
 			(effects
 				(font
@@ -4632,7 +4632,7 @@
 		)
 		(property "Value" "1N5822"
 			(at 7.62 3.72 180)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "1bc80b03-0fcf-47aa-8c17-69545472d25f")
 			(effects
 				(font
@@ -5226,7 +5226,7 @@
 		)
 		(property "Value" "500"
 			(at 3.81 0 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "e40880a0-25ef-4df5-91f2-24ba8c5dfc0e")
 			(effects
 				(font
@@ -5417,7 +5417,7 @@
 		)
 		(property "Value" "10K"
 			(at 3.81 0.15 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "73b788fa-4932-47bf-aa90-b2b11ab8fa0e")
 			(effects
 				(font
@@ -5972,7 +5972,7 @@
 		)
 		(property "Value" "12V"
 			(at -2.25 5.83 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "280e4af0-c334-4781-bebd-b1e091847b10")
 			(effects
 				(font
@@ -6627,7 +6627,7 @@
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J1"
-			(at 0 -2.77 0)
+			(at 2.5 0.02 0)
 			(layer "F.SilkS")
 			(uuid "575db4dc-d52e-4214-96b4-b4f557221bc0")
 			(effects
@@ -7383,7 +7383,7 @@
 		(descr "Through hole straight socket strip, 1x06, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x06 2.54mm single row")
 		(property "Reference" "J12"
-			(at 0 -2.77 90)
+			(at -2.75 6.29 180)
 			(layer "F.SilkS")
 			(uuid "62edfafb-253c-4a4c-b281-2bbaee3930a4")
 			(effects
@@ -7394,8 +7394,8 @@
 			)
 		)
 		(property "Value" "INA219"
-			(at -2.5 7.54 180)
-			(layer "F.Fab")
+			(at 2.25 6.04 180)
+			(layer "F.SilkS")
 			(uuid "d9a26619-9331-4487-8689-b9bd8f8112df")
 			(effects
 				(font
@@ -7697,7 +7697,7 @@
 		(descr "Through hole straight socket strip, 1x07, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x07 2.54mm single row")
 		(property "Reference" "J3"
-			(at 2.5 -0.15 0)
+			(at 2.75 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "e46851ad-2855-4020-a0fa-939a7b3a90ea")
 			(effects
@@ -8035,7 +8035,7 @@
 		)
 		(property "Value" "10K"
 			(at 3.81 0 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "f0d857c0-260e-4e5e-ac0e-e25e025e3204")
 			(effects
 				(font
