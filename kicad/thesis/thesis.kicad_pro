@@ -530,11 +530,20 @@
       },
       {
         "clearance": 0.2,
-        "name": "Power",
+        "name": "3.3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.2,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.5,
         "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.4
@@ -555,12 +564,20 @@
         "pattern": "GND"
       },
       {
-        "netclass": "Power",
+        "netclass": "3.3",
         "pattern": "+3.3V"
       },
       {
         "netclass": "Default",
         "pattern": "*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "Net-(D1-A)"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "Net-(J12-Pin_5)"
       }
     ]
   },

@@ -4724,12 +4724,6 @@
 		(uuid "30813f1b-608f-47db-ab43-9880ea16cb09")
 	)
 	(junction
-		(at 201.93 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "516b35c5-e0b6-4595-9039-ac4bf24c08db")
-	)
-	(junction
 		(at 152.4 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4818,6 +4812,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cdf877ff-a277-47c8-9d81-1ed51f113226")
+	)
+	(junction
+		(at 201.93 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2ac6192-b694-467b-851d-3722072b597b")
 	)
 	(junction
 		(at 57.15 128.27)
@@ -5061,7 +5061,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 66.04) (xy 179.07 66.04)
+			(xy 166.37 66.04) (xy 191.77 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5141,6 +5141,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 66.04) (xy 201.93 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "339f96e9-94a8-459b-8a37-7864c53caf59")
+	)
+	(wire
+		(pts
 			(xy 97.79 102.87) (xy 104.14 102.87)
 		)
 		(stroke
@@ -5148,16 +5158,6 @@
 			(type default)
 		)
 		(uuid "33f1ea00-341d-4bd2-a8af-6f3e87c4b992")
-	)
-	(wire
-		(pts
-			(xy 195.58 66.04) (xy 201.93 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37070d88-daa5-4062-9a19-d638d40eec4f")
 	)
 	(wire
 		(pts
@@ -5611,16 +5611,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 71.12) (xy 190.5 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96009583-9616-4767-96f1-9534ebb0bde1")
-	)
-	(wire
-		(pts
 			(xy 57.15 115.57) (xy 57.15 118.11)
 		)
 		(stroke
@@ -5738,16 +5728,6 @@
 			(type default)
 		)
 		(uuid "b309effd-b3be-496c-ad4f-245c6832ab93")
-	)
-	(wire
-		(pts
-			(xy 195.58 71.12) (xy 201.93 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b37cbae1-8f31-4b77-8511-a34747753c28")
 	)
 	(wire
 		(pts
@@ -5961,6 +5941,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 71.12) (xy 201.93 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d750486d-2383-4580-9f48-08eaa66ec33b")
+	)
+	(wire
+		(pts
 			(xy 154.94 113.03) (xy 165.1 113.03)
 		)
 		(stroke
@@ -6048,16 +6038,6 @@
 			(type default)
 		)
 		(uuid "e49584a3-c320-4c3e-998b-5213cfd99c98")
-	)
-	(wire
-		(pts
-			(xy 184.15 66.04) (xy 190.5 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e767a311-6bdd-4e43-bb0f-28256adf8e3a")
 	)
 	(wire
 		(pts
@@ -6305,85 +6285,6 @@
 			(project "thesis"
 				(path "/4ebb0c45-f912-48a8-89a3-8cdd50b81c57"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Iron_Small")
-		(at 193.04 71.12 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "03c14ef6-3c88-4269-97ca-4e057c14a768")
-		(property "Reference" "L3"
-			(at 193.04 67.564 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L_Iron_3"
-			(at 193.04 68.834 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 193.04 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor with iron core, small symbol"
-			(at 193.04 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7dc25480-adc4-40cb-b6cc-09058f4cd15c")
-		)
-		(pin "1"
-			(uuid "a24efc38-5418-436f-a4b1-bf8828835318")
-		)
-		(instances
-			(project "thesis"
-				(path "/4ebb0c45-f912-48a8-89a3-8cdd50b81c57"
-					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -9032,85 +8933,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Iron_Small")
-		(at 193.04 66.04 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e2536e7a-3b08-47b2-9d01-e8b7c6c5a5f0")
-		(property "Reference" "L4"
-			(at 193.04 62.484 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L_Iron_4"
-			(at 193.04 63.754 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 193.04 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor with iron core, small symbol"
-			(at 193.04 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "43ccabb7-f19e-4fd3-b40a-1a11703bc257")
-		)
-		(pin "1"
-			(uuid "40a39ef4-aaf9-43dc-b9f2-d2903e5eb868")
-		)
-		(instances
-			(project "thesis"
-				(path "/4ebb0c45-f912-48a8-89a3-8cdd50b81c57"
-					(reference "L4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 139.7 181.61 0)
 		(unit 1)
@@ -9429,7 +9251,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Iron_Small")
-		(at 181.61 66.04 90)
+		(at 194.31 66.04 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9439,7 +9261,7 @@
 		(dnp no)
 		(uuid "e9b42a98-a82e-4427-b618-009428196c83")
 		(property "Reference" "L1"
-			(at 181.61 62.23 90)
+			(at 194.31 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9449,7 +9271,7 @@
 			)
 		)
 		(property "Value" "L_Iron_1"
-			(at 181.61 63.754 90)
+			(at 194.31 63.754 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9459,7 +9281,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 181.61 66.04 0)
+			(at 194.31 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9470,7 +9292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 66.04 0)
+			(at 194.31 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9481,7 +9303,7 @@
 			)
 		)
 		(property "Description" "Inductor with iron core, small symbol"
-			(at 181.61 66.04 0)
+			(at 194.31 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
